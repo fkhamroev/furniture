@@ -1,0 +1,270 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.header-line {
+    width: 100%;
+    height: 1px;
+    background: #D1D1D8;
+    margin-top: 30px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
+.header-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #17183B;
+}
+
+.header-link {
+    color: var(--space-cadet);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+.header-link:hover {
+    border-bottom: 2px solid #17183B;
+}
+
+.header-signIn {
+    margin-right: 20px;
+    background: transparent;
+    border: none;
+    width: 100px;
+    border-radius: 10px 10px 10px 0;
+    font-family: var(--text-second);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background: #FB923C;
+    color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px
+}
+
+.header-signIn:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 42px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+
+.header-signIn:hover:before {
+    width: 100%;
+}
+
+.header-signUp {
+    border: none;
+    background: transparent;
+    font-family: var(--text-second);
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 20px;
+    border: 2px solid #FB923C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.header-shop {
+    margin-left: 30px;
+    position: relative;
+    transition: 500ms;
+}
+
+.header-shop:hover {
+    transform: scale(1.2);
+}
+
+.shop-line {
+    height: 100px;
+    width: 1px;
+    position: absolute;
+    background: #D1D1D8;
+    top: 0;
+}
+
+.header-signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    font-family: calibri;
+    border: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 0;
+    border: 1px solid #17183B;
+    transition: all 0.3s linear;
+    line-height: 23px;
+
+}
+
+.header-signUp:hover {
+    background: #17183B;
+    color: white;
+}
+
+
+/* .header-signUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    font-family: calibri;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.5s linear;
+    position: relative;
+}
+
+
+
+.header-signUp::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 100%;
+    background-color: #225612;
+    position: absolute;
+    border-radius: 100px;
+    left: 10px;
+    z-index: -1;
+    transition: all 600ms ease;
+}
+
+.header-signUp:hover::before {
+    width: 85%;
+} */
+
+/* --------- header banner ---------- */
+.header-banner {
+    display: flex;
+    justify-content: space-between;
+    gap: 55px;
+    margin-top: 70px;
+    position: relative;
+}
+
+.banner-content {
+    max-width: 533px;
+    width: 100%;
+}
+
+.banner-title {
+    font-size: 64px;
+    line-height: 120%;
+    color: #333333;
+}
+
+.banner-desc {
+    font-size: 19px;
+    line-height: 31px;
+    margin: 16px 0;
+    font-family: var(--text-fourth);
+    color: #999999;
+
+}
+
+.banner-btn {
+    font-size: 14px;
+    color: #333333;
+    padding: 12px;
+    height: 45px;
+    max-width: 155px;
+    width: 100%;
+    border: none;
+    background: transparent;
+    border: 1px solid #333333;
+    border-radius: 24.65px;
+    font-family: var(--text-third);
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    backface-visibility: hidden;
+}
+
+.banner-btn:hover {
+    box-shadow: 0px 4px 10px -4px rgba(34, 60, 80, 0.27);
+}
+
+.banner-extra {
+    background: white;
+    display: flex;
+    max-width: 970px;
+    width: 100%;
+    position: absolute;
+    bottom: -70px;
+    left: 0;
+    padding: 25px;
+    border-radius: 73px;
+    box-shadow: 0px 4px 8px -4px rgba(34, 60, 80, 0.14);
+}
+
+.banner-card {
+    max-width: 148px;
+    width: 100%;
+    margin: 0 25px;
+}
+
+.bannerCard-tit {
+    color: #909090;
+    font-weight: 600;
+    font-size: 13.87px;
+    margin-bottom: 7px;
+    font-family: var(--text-third);
+}
+
+.banner-img {
+    display: flex;
+    align-items: center;
+}
+
+.bannerCard-span {
+    color: #999999;
+    font-size: 13.87px;
+    font-weight: 500;
+    font-family: var(--text-third);
+    margin-left: 5px;
+}
+
+.banner-hr {
+    border: px solid #909090;
+}
+
+.banner-btn-size {
+    max-width: 120px;
+}
